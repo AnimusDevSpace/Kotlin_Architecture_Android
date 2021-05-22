@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewAvatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="4dp"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/txtHeading"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:lines="2"
+        android:singleLine="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgArrow"
+        app:layout_constraintStart_toEndOf="@id/imageViewAvatar"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/txtReporterName"
+        android:textSize="16sp"
+        android:textColor="@color/grey_color"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:lines="2"
+        android:singleLine="false"
+        app:layout_constraintEnd_toStartOf="@id/icDate"
+        app:layout_constraintTop_toBottomOf="@id/txtHeading"
+        app:layout_constraintStart_toEndOf="@id/imageViewAvatar"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/icDate"
+        android:layout_margin="2dp"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_calendar_today_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/txtDate"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:layout_margin="2dp"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/imageViewAvatar"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewAvatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_margin="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

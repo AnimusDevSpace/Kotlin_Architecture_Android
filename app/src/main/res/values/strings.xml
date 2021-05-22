@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Clean Architecture</string>
+    <string name="no_result">No result</string>
+    <string name="error_msg">Somethings went wrong!</string>
+</resources>
