@@ -22,7 +22,7 @@ class DetailsActivity : AppCompatActivity() {
         binding.webView.settings.javaScriptEnabled = true
         binding.webView.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
-                view?.loadUrl(url)
+                view?.loadUrl(url!!)
                 return true
             }
         }
