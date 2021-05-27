@@ -1,8 +1,4 @@
 
-w
-Gapp/src/main/java/com/assignment/cleanarchitecture/ui/ktx/ViewBinder.kt,2/5/25564c79c0985d9c9f04756576b0c48ca7d6071a
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 Å
 Qapp/src/main/java/com/assignment/cleanarchitecture/ui/utils/const/ConstantData.kt,6/1/614619fe5d7e55de3e47ff3db9f29d3696cc5167
 ?
@@ -11,19 +7,13 @@ Qapp/src/main/java/com/assignment/cleanarchitecture/ui/utils/const/ConstantData.
 local.properties,0/7/0712df971a99ac4d2fccb8e0fb19f377f3374cca
 á
 Wapp/src/main/java/com/assignment/cleanarchitecture/ui/data/model/MostPopularArticles.kt,2/c/2cb213daff73e5a523913022efa4b9407381afc8
-u
-Eapp/src/main/java/com/assignment/cleanarchitecture/ui/di/AppModule.kt,f/9/f96796da84c481f52ab0411c8f5d62811691b520
 x
 Happ/src/main/java/com/assignment/cleanarchitecture/ui/di/AppComponent.kt,6/5/65313b5e7b4dbe851ae67550e60118dec0aef841
-y
-Iapp/src/main/java/com/assignment/cleanarchitecture/ui/di/MyApplication.kt,9/2/9240448b5a3ce98337cf086c33c8ff92d27849b1
 v
 Fapp/src/main/java/com/assignment/cleanarchitecture/ui/ClickListener.kt,6/0/60924ddf0526ec893fb0da55e7718f7b712d0718
 u
 Eapp/src/main/java/com/assignment/cleanarchitecture/ui/utils/Status.kt,3/6/36a7deb4d18cc7e187c306b630c447713a448365
 w
 Gapp/src/main/java/com/assignment/cleanarchitecture/ui/utils/Response.kt,9/5/954495805922bcdb1cb39519a89fbe0ed7be77f0
-
-Oapp/src/main/java/com/assignment/cleanarchitecture/ui/ui/master/MainActivity.kt,e/0/e043a18902510e965f382a51c8bc92e7d441cefa
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

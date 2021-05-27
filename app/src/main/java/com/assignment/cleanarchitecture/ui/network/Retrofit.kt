@@ -2,11 +2,14 @@ package com.assignment.cleanarchitecture.ui.network
 
 import android.app.Application
 import com.assignment.cleanarchitecture.BuildConfig
+import com.assignment.cleanarchitecture.ui.di.application
 import com.google.gson.FieldNamingPolicy
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.android.components.ActivityComponent
 import okhttp3.Cache
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

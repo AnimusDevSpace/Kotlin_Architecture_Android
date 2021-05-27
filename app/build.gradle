@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
 }
 
 android {
@@ -46,11 +47,13 @@ dependencies {
     implementation "androidx.activity:activity-ktx:1.2.3"
     implementation "androidx.fragment:fragment-ktx:1.3.4"
 
-
+    //Hilt
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-compiler:$hilt_version"
 
     //DI-dagger_2
-    implementation 'com.google.dagger:dagger-android:2.35.1'
-    kapt 'com.google.dagger:dagger-compiler:2.20'
+//    implementation 'com.google.dagger:dagger-android:2.35.1'
+//    kapt 'com.google.dagger:dagger-compiler:2.20'
 
     //LifeCycle
     implementation 'androidx.lifecycle:lifecycle-common:2.3.1'

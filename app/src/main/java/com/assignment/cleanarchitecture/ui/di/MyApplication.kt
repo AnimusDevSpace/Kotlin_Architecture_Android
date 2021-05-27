@@ -3,6 +3,7 @@ package com.assignment.cleanarchitecture.ui.di
 import android.app.Application
 import com.assignment.cleanarchitecture.ui.network.APIModule
 import com.assignment.cleanarchitecture.ui.utils.const.ConstantData
+import dagger.hilt.android.HiltAndroidApp
 
 class MyApplication:Application() {
 
