@@ -18,7 +18,9 @@ import com.assignment.cleanarchitecture.ui.utils.Status
 import com.assignment.cleanarchitecture.ui.ui.viewmodel.MainViewModel
 import com.assignment.cleanarchitecture.ui.ui.webview.DetailsActivity
 import com.assignment.cleanarchitecture.ui.utils.const.ConstantData
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(), ClickListener {
 
     private val viewModel by viewModels<MainViewModel>()
