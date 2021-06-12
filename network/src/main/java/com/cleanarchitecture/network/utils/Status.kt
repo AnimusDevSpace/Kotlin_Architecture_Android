@@ -1,4 +1,4 @@
-package com.assignment.cleanarchitecture.ui.utils
+package com.cleanarchitecture.network.utils
 
 enum class Status {
     SUCCESS,

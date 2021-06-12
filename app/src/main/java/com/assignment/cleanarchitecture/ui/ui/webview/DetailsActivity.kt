@@ -7,7 +7,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import com.assignment.cleanarchitecture.databinding.ActivityDetailsBinding
 import com.assignment.cleanarchitecture.ui.ktx.viewBinding
-import com.assignment.cleanarchitecture.ui.utils.const.ConstantData
+import com.cleanarchitecture.network.utils.const.ConstantData
 
 class DetailsActivity : AppCompatActivity() {
 

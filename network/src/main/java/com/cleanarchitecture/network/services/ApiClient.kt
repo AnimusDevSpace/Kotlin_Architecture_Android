@@ -2,6 +2,7 @@ package com.cleanarchitecture.network.services
 
 import android.content.Context
 import com.cleanarchitecture.network.BaseApiClient
+import com.cleanarchitecture.network.utils.const.ConstantData
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -12,7 +13,6 @@ class ApiClient constructor(
 ) : BaseApiClient(context) {
 
     companion object{
-        private const val BASE_URL = "https://api.themoviedb.org"
         fun getApiService(): APIServices {
             val loggingInterceptor =
                 HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
@@ -20,7 +20,7 @@ class ApiClient constructor(
                 .addInterceptor(loggingInterceptor)
                 .build()
             val retrofit = Retrofit.Builder()
-                .baseUrl(BASE_URL)
+                .baseUrl(ConstantData.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()
@@ -37,8 +37,5 @@ class ApiClient constructor(
 //            .create(APIServices::class.java)
 //    }
 
-//    companion object {
-//        private const val BASE_URL = "https://api.themoviedb.org"
-//    }
 
 }

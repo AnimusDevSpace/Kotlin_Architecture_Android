@@ -73,8 +73,9 @@ dependencies {
     //round image view
     implementation("de.hdodenhof:circleimageview:3.1.0")
 
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.2")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.3.0")
 
-//    testImplementation 'junit:junit:4.+'
-//    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    configurations.forEach { it.exclude("junit", "junit") }
 }
