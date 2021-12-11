@@ -1,4 +1,4 @@
-package com.assignment.cleanarchitecture.ui.utils.const
+package com.cleanarchitecture.network.utils.const
 
 object ConstantData {
     var API_KEY="fRHdkkHCKGkVsOURHS28D1QGvDxoi4Qi"

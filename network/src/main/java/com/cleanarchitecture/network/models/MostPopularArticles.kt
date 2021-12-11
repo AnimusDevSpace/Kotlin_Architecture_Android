@@ -1,5 +1,4 @@
-package com.assignment.cleanarchitecture.ui.data.model
-
+package com.cleanarchitecture.network.models
 
 import com.google.gson.annotations.SerializedName
 import kotlinx.serialization.Serializable

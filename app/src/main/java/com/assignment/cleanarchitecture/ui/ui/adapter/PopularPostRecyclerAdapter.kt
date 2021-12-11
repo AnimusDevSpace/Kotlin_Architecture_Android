@@ -2,19 +2,16 @@ package com.assignment.cleanarchitecture.ui.ui.adapter
 
 import android.app.Activity
 import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Filterable
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.assignment.cleanarchitecture.databinding.ItemLayoutBinding
 import com.assignment.cleanarchitecture.ui.ClickListener
-import com.assignment.cleanarchitecture.ui.data.model.MostPopularArticles
-import com.assignment.cleanarchitecture.ui.ui.webview.DetailsActivity
-import com.assignment.cleanarchitecture.ui.utils.const.ConstantData
+import com.cleanarchitecture.network.utils.const.ConstantData
 import com.bumptech.glide.Glide
+import com.cleanarchitecture.network.models.MostPopularArticles
 import java.util.*
 import kotlin.collections.ArrayList
 
